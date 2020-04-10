@@ -36,7 +36,7 @@ class Login extends Component {
                                 <div className="row username">
                                     <div className="col-lg-2 col-md-2 col-xs-2 eachBox">
                                         <i className="fa fa-envelope fa-lg fa-fw emailicon" id="hello" aria-hidden="true"
-                                         style={{fontSize:"19px"}}
+                                            style={{ fontSize: "19px" }}
                                         ></i>
                                     </div>
                                     <div className="col-lg-10 col-md-10 col-xs-10 eachBox">
@@ -56,8 +56,8 @@ class Login extends Component {
                                 <div className="row password">
                                     <div className="col-lg-2 col-md-2 col-xs-2 eachBox">
                                         <i className="fa fa-unlock-alt fa-lg fa-fw passwordicon" id="hello2" aria-hidden="true"
-                                        style={{fontSize:"25px"}}
-                                      ></i>
+                                            style={{ fontSize: "25px" }}
+                                        ></i>
                                     </div>
                                     <div className="col-lg-10 col-md-10 col-xs-10 eachBox">
                                         <input type="password" name="password" className="pass-input" placeholder="password"
@@ -79,13 +79,13 @@ class Login extends Component {
 
                         <div className="row socialMedia">
                             <div className=" eachSocialBox">
-                            <i className="fa fa-google  fa-fw" aria-hidden="true" title="Google SignIn"></i>
+                                <i className="fa fa-google  fa-fw" aria-hidden="true" title="Google SignIn"></i>
                             </div>
                             <div className=" eachSocialBox">
-                            <i className="fa fa-facebook fa-fw" aria-hidden="true" title="Facebook SignIn"></i>
+                                <i className="fa fa-facebook fa-fw" aria-hidden="true" title="Facebook SignIn"></i>
                             </div>
                             <div className="eachSocialBox">
-                            <i className="fa fa-instagram  fa-fw" aria-hidden="true" title="Instagram SignIn"></i>
+                                <i className="fa fa-instagram  fa-fw" aria-hidden="true" title="Instagram SignIn"></i>
                             </div>
 
                         </div>
